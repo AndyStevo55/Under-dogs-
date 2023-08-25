@@ -1,0 +1,194 @@
+.hero {
+  min-height: 100vh;
+  width: 100%;
+  color: #fff;
+  position: relative;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 50px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 20px 8%;
+}
+
+nav .menu-img {
+  width: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+nav .logo {
+  width: 80px;
+  cursor: pointer;
+}
+
+nav ul {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  background: #efefef;
+  height: 30px;
+  width: 60px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+button span {
+  display: block;
+  background: #999;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  margin-left: 2px;
+}
+
+.Artist {
+  position: absolute;
+  top: -20px;
+  left: 30%;
+  width: 10%;
+}
+
+.mulatu {
+  width: 100%;
+}
+
+body {
+  background: url('https://images.saatchiart.com/saatchi/1170379/art/10296585/9359209-PCHYREMU-7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.text-container {
+  max-width: 600px;
+  margin-top: 7%;
+  margin-left: 60%;
+}
+
+.text-container h1 {
+  font-size: 70px;
+  font-weight: 200;
+}
+
+.text-container a {
+  text-decoration: none;
+  background: #fff;
+  padding: 14px 40px;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+
+.control {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 150px;
+}
+
+.control .line {
+  width: 250px;
+  height: 4px;
+  background: #fff;
+  margin: 0 20px;
+  border-radius: 2px;
+}
+
+.active {
+  background: green;
+}
+
+.active span {
+  background: white;
+  margin-left: 31px;
+}
+
+.loginbox {
+  width: 320px;
+  height: 420px;
+  background: transparent;
+  color: #fff;
+  top: 50%;
+  right: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 40px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.loginbox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginbox input[type="text"],
+input[type="password"] {
+  border-radius: 40px;
+  border-bottom: 1px solid #fff;
+  background: beige;
+  outline: none;
+  height: 40px;
+  color: #000;
+  font-size: 16px;
+}
+
+.loginbox input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #CBC3E3;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover {
+  cursor: pointer;
+  background: white;
+  color: #000;
+}
+
+.loginbox a {
+  text-decoration: none;
+  line-height: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+  .text-container {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+}
